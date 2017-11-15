@@ -19,3 +19,4 @@ class Address(models.Model):
 	ethBalance = models.FloatField(blank=True)
 	usdBalance = models.FloatField(blank=True)
 	nbTrx = models.IntegerField(blank=True)
+	suspicious = models.BooleanField()
